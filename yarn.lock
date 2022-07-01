@@ -7592,6 +7592,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"attr-accept@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "attr-accept@npm:2.2.2"
+  checksum: f77c073ac9616a783f2df814a56f65f1c870193e8da6097139e30b3be84ecc19fb835b93e81315d1da4f19e80721f14e8c8075014205e00abd37b856fe030b80
+  languageName: node
+  linkType: hard
+
 "auto-bind@npm:~4.0.0":
   version: 4.0.0
   resolution: "auto-bind@npm:4.0.0"
@@ -12557,6 +12564,15 @@ __metadata:
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
   checksum: e176a57c2037ab0f78e5755dbf293a6b7f0f8392350a120bd03cc2ce2525bea017458ba28fea14ca535ff1848055e86d1a3a216bdb2561ef33395b27260a1dd3
+  languageName: node
+  linkType: hard
+
+"file-selector@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "file-selector@npm:0.4.0"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 2c55019ea5db84c0c27a5337028604d8a9fe9a53551eb20f4ad44541dfdfdda6bb576e950ac51d11fc3791247c9407734043a9c68a7fe473925631ffc03442e4
   languageName: node
   linkType: hard
 
@@ -18475,6 +18491,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"papaparse@npm:^5.3.0":
+  version: 5.3.2
+  resolution: "papaparse@npm:5.3.2"
+  checksum: fdc50cae03fdf94fa2b78da86fe18fa53ca36753ccd6619ca7f738df097cdd2cbf572a9c048a72c05118db7cf0ccb25d574f39a720c5e1a8d8c6903b0fd30765
+  languageName: node
+  linkType: hard
+
 "parallel-transform@npm:^1.1.0":
   version: 1.2.0
   resolution: "parallel-transform@npm:1.2.0"
@@ -19962,6 +19985,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-csv-importer@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "react-csv-importer@npm:0.7.1"
+  dependencies:
+    papaparse: ^5.3.0
+    react-dropzone: ^11.0.3
+    react-use-gesture: ^7.0.16
+  peerDependencies:
+    react: ^16.8.0 || >=17.0.0
+    react-dom: ^16.8.0 || >=17.0.0
+  checksum: 475ff5b1081f8de5b7a3fd67e771644a72d47e60957492aaa7107664efc2c5bf0863d12326cc23015a68f4f56cf4fe1acd70d233de9784fe2a1e39983026c40e
+  languageName: node
+  linkType: hard
+
 "react-docgen-typescript@npm:^2.1.1":
   version: 2.2.2
   resolution: "react-docgen-typescript@npm:2.2.2"
@@ -20001,6 +20038,19 @@ __metadata:
   peerDependencies:
     react: 17.0.2
   checksum: 51abbcb72450fe527ebf978c3bc989ba266630faaa53f47a2fae5392369729e8de62b2e4683598cbe651ea7873cd34ec7d5127e2f50bf4bfe6bd0c3ad9bddcb0
+  languageName: node
+  linkType: hard
+
+"react-dropzone@npm:^11.0.3":
+  version: 11.7.1
+  resolution: "react-dropzone@npm:11.7.1"
+  dependencies:
+    attr-accept: ^2.2.2
+    file-selector: ^0.4.0
+    prop-types: ^15.8.1
+  peerDependencies:
+    react: ">= 16.8"
+  checksum: 81443f64dad24592f64ac804128df8e8875a54b10497b7690e8bae4525478e61b707e0a31129f0199829bc6ab05ff1c52070883e19cbf6f96e18ffc22d57da4c
   languageName: node
   linkType: hard
 
@@ -20145,6 +20195,15 @@ __metadata:
   peerDependencies:
     react: ">= 0.14.0"
   checksum: 2bf57a1ea151f688efc7eba355677577c9bb55f05f9df7ef86627aae42f63f505486cddf3f4a628aecc51ec75e89beb9533201570d03201c4bf7d69d61d2545d
+  languageName: node
+  linkType: hard
+
+"react-use-gesture@npm:^7.0.16":
+  version: 7.0.16
+  resolution: "react-use-gesture@npm:7.0.16"
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: aebde82f01d965e0b21dc67e7b40e3ce43b2e92e6a4be16be78aca47702a499010601702e84285c3242dc6dde15244ad8a290f280e747d77c0144685c8c70f80
   languageName: node
   linkType: hard
 
@@ -20871,6 +20930,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 2.0.0
+    react-csv-importer: ^0.7.1
   languageName: unknown
   linkType: soft
 
